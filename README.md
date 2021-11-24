@@ -1,7 +1,7 @@
 
 
 ## secrets列表
-| key                  | value                                                                 | description                                 |
+| key                  | value                                                                 | descriptio                                |
 |----------------------|-----------------------------------------------------------------------|---------------------------------------------|
 | GAME_AUTHKEYS        | RaNdOmStRiNg1234:randomAAAAA=,RaNdOmStRiNg1235:randomAAAAA=           | 需要签到的账号，多个账号使用英文逗号","分隔 |
 | GAME_SECRETKEYS      | RaNdOmStRiNg1234:randomAAAAA=,RaNdOmStRiNg1235:randomAAAAA=           | 对应的密码，多个账号使用英文逗号","分隔     |
