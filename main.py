@@ -8,8 +8,7 @@ from user import user
 userIds = os.environ['userIds'].split(",")
 authKeys = os.environ['authKeys'].split(",")
 secretKeys = os.environ['secretKeys'].split(",")
-Qmsgkeys = os.environ['Qmsgkeys']
-Qmsgqq =os.environ['Qmsgqq']
+
 
 
 
