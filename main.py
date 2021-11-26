@@ -43,11 +43,11 @@ def main():
         url.SendMessageToAdmin(res)
         url.UploadFileToRepo(mytime.GetNowTimeFileName(), res,
                              mytime.GetNowTimeFileName())
-        Qmsgkeys='51590d96c9aa4298f941a67138920eb6'
+        
         url2='https://qmsg.zendee.cn/send/'+Qmsgkeys
         data={
-            "msg":"铛铛铛( \`д´) *%s点* 了" % mytime.GetNowTimeHour()+res#需要发送的消息
-            "qq":Qmsgqq#需要接收消息的QQ号码
+            "msg":"铛铛铛( \`д´) *%s点* 了" % mytime.GetNowTimeHour()+res
+            "qq":"1153478116"
             }
         response = requests.post(url2,data=data)
 
