@@ -41,7 +41,13 @@ def main():
                              mytime.GetNowTimeFileName())
     else:
         print("账号密码数量不匹配")
-
+    KEY='51590d96c9aa4298f941a67138920eb6'#此处替换为你自己的KEY，在Qmsg酱官网登录后，在控制台可以获取KEY
+    data={
+        "msg":"测试", #需要发送的消息
+        "qq":"1153478116"#需要接收消息的QQ号码
+    }
+    url2='https://qmsg.zendee.cn/send/'+KEY#私聊消息推送接口
+    response = requests.post(url2,data=data)
 
 if __name__ == '__main__':
     main()
