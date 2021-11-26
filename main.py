@@ -46,7 +46,7 @@ def main():
         
         url2='https://qmsg.zendee.cn/send/'+Qmsgkeys
         data={
-            "msg":"铛铛铛( \`д´) *%s点* 了" % mytime.GetNowTimeHour()+res
+            "msg":"铛铛铛( \`д´) *%s点* 了" % mytime.GetNowTimeHour()+res, 
             "qq":"1153478116"
             }
         response = requests.post(url2,data=data)
