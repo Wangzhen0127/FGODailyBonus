@@ -31,7 +31,7 @@ def main():
     if userNums == authKeyNums and userNums == secretKeyNums:
         url.ReadConf()
         print("待签到: %d 个" % userNums)
-        res = '【登录信息】\n'
+        res = '\n【登录信息】\n'
         for i in range(userNums):
             instance = user(userIds[i], authKeys[i], secretKeys[i])
             instance.gameData()
